@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        electric-graphviz-dot-semi
         prelude-move-beginning-of-line
         sp--self-insert-command
         sp-backward-delete-char
