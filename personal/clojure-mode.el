@@ -2,8 +2,7 @@
 (prelude-require-package 'clojure-mode-extra-font-locking)
 (require 'clojure-mode)
 
-(cider-repl-toggle-pretty-printing)
-
+;; Set up custom indents
 (put-clojure-indent 'defcrawler 'defun)
 (put-clojure-indent 'defprocessor 'defun)
 (put-clojure-indent 'facts 'defun)
