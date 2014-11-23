@@ -4,13 +4,17 @@
 (setq mc/cmds-to-run-for-all
       '(
         electric-graphviz-dot-semi
+        indent-for-tab-command
         prelude-move-beginning-of-line
         sp--self-insert-command
         sp-backward-delete-char
         sp-delete-char
         sp-kill-hybrid-sexp
+        sp-kill-word
+        undo-tree-visualizer-quit
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        text-scale-increase
         ))

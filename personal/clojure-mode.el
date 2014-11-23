@@ -9,3 +9,4 @@
 (put-clojure-indent 'fact 'defun)
 (put-clojure-indent 'fact-group 'defun)
 (put-clojure-indent 'provided 'defun)
+(put-clojure-indent 'against-background 'defun)
