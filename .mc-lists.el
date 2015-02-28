@@ -4,8 +4,11 @@
 (setq mc/cmds-to-run-for-all
       '(
         electric-graphviz-dot-semi
+        electric-newline-and-maybe-indent
+        handle-switch-frame
         indent-for-tab-command
         prelude-move-beginning-of-line
+        smex
         sp--self-insert-command
         sp-backward-delete-char
         sp-delete-char
