@@ -15,5 +15,6 @@
 (put-clojure-indent 'expect-prop 1)
 (put-clojure-indent 'for-all 1)
 (put-clojure-indent 'future-with 1)
+(put-clojure-indent 'go-loop 1)
 (put-clojure-indent 'side-effects 1)
 (put-clojure-indent 'side-effects-returning 2)
