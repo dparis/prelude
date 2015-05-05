@@ -3,12 +3,16 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        c-electric-delete-forward
+        c-electric-paren
+        c-electric-slash
         cljr-slash
         easy-kill
         electric-graphviz-dot-semi
         electric-newline-and-maybe-indent
         handle-switch-frame
         indent-for-tab-command
+        kill-region
         prelude-move-beginning-of-line
         smex
         sp--self-insert-command
@@ -16,6 +20,7 @@
         sp-backward-delete-char
         sp-delete-char
         sp-forward-barf-sexp
+        sp-forward-sexp
         sp-forward-slurp-sexp
         sp-kill-hybrid-sexp
         sp-kill-word
