@@ -1,5 +1,4 @@
 (prelude-require-package 'clojure-mode)
-(prelude-require-package 'clojure-mode-extra-font-locking)
 (require 'clojure-mode)
 
 ;; Configure CIDER
@@ -9,10 +8,6 @@
 
 ;; Enable subword-mode to help dealing with CamelCase identifiers
 (add-hook 'cider-repl-mode-hook #'subword-mode)
-
-;; Enable rainbow delimiters mode
-(add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)
-
 
 ;; Set up custom indents
 (put-clojure-indent 'defrecord 'defun)

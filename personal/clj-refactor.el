@@ -1,4 +1,6 @@
+(prelude-require-package 'clj-refactor)
 (require 'clj-refactor)
+
 (add-hook 'clojure-mode-hook
           (lambda ()
             (clj-refactor-mode 1)
