@@ -10,16 +10,15 @@
 (add-hook 'cider-repl-mode-hook #'subword-mode)
 
 ;; Set up custom indents
+(put-clojure-indent 'checking 2)
 (put-clojure-indent 'context* 2)
 (put-clojure-indent 'defrecord 'defun)
-(put-clojure-indent 'expect 1)
-(put-clojure-indent 'expect-let 1)
-(put-clojure-indent 'expect-prop 1)
 (put-clojure-indent 'for-all 1)
 (put-clojure-indent 'future-with 1)
 (put-clojure-indent 'GET 2)
 (put-clojure-indent 'GET* 2)
 (put-clojure-indent 'go-loop 1)
+(put-clojure-indent 'match 1)
 (put-clojure-indent 'mocking 'defun)
 (put-clojure-indent 'POST 2)
 (put-clojure-indent 'POST* 2)

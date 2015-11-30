@@ -13,11 +13,13 @@
         handle-switch-frame
         indent-for-tab-command
         kill-region
+        org-delete-char
         prelude-move-beginning-of-line
         smex
         sp--self-insert-command
         sp-backward-barf-sexp
         sp-backward-delete-char
+        sp-backward-slurp-sexp
         sp-delete-char
         sp-forward-barf-sexp
         sp-forward-sexp
@@ -29,6 +31,7 @@
 
 (setq mc/cmds-to-run-once
       '(
+        cider-load-buffer
         ido-switch-buffer
         text-scale-increase
         ))
